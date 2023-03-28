@@ -1,0 +1,20 @@
+.home_wrap {
+    background-color: #262e8e;
+    height: 100vh;
+    padding-top: 135px;
+
+    .title {
+        text-align: center;
+        font-size: 72px;
+        letter-spacing: 5px;
+        color: #efb607;
+    }
+}
+
+@media (max-width: 767px) {
+    .home_wrap {
+        .title {
+            font-size: 32px;
+        }
+    }
+}

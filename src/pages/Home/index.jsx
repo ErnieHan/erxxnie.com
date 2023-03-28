@@ -1,10 +1,9 @@
-import image from '../../images/01.jpg'
+import './style.scss'
 
 export default function Home() {
     return (
-        <div>
-            <h1>Homepage erxxnie.com</h1>
-            <img src={image} alt="" />
+        <div className="home_wrap">
+            <h1 className="title">erxxnie.com</h1>
         </div>
     )
 }
