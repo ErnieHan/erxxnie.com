@@ -1,9 +1,13 @@
 import './style.scss'
+import logo from '../../images/x140.webp'
+import Layout from '../../containers/Layout'
 
 export default function Home() {
     return (
-        <div className="home_wrap">
-            <h1 className="title">erxxnie.com</h1>
-        </div>
+        <main className="home_page">
+            <Layout>
+                <img src={logo} alt="" />
+            </Layout>
+        </main>
     )
 }
