@@ -1,3 +1,16 @@
 .home_page {
     position: relative;
+
+    .home_main_wrap {
+        // padding-top: 146px;
+
+        .hero_banner_wrap {
+            height: 100vh;
+            background-image: url('../../images/hero_banner.webp');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-attachment: fixed;
+        }
+    }
 }

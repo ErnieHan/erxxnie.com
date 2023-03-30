@@ -1,0 +1,75 @@
+.header_wrap {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 5px 5px;
+
+    .header_container {
+        position: relative;
+        max-width: 1600px;
+        margin: 0 auto;
+        padding: 45px 40px 0 40px;
+
+        .top_content {
+            display: flex;
+            align-items: center;
+
+            .menu_btn_wrap {
+                position: relative;
+                margin-right: 12px;
+                cursor: pointer;
+
+                &:hover {
+                    color: #e9e8e7;
+                }
+
+                &:last-child {
+                    margin-right: 0;
+                }
+            }
+
+            .left {
+                width: 33.33%;
+                display: flex;
+                align-items: center;
+            }
+
+            .middle {
+                width: 33.33%;
+                display: flex;
+                justify-content: center;
+            }
+
+            .right {
+                width: 33.33%;
+                display: flex;
+                justify-content: flex-end;
+                align-items: center;
+
+                .member_icon {
+                    font-size: 28px;
+                }
+
+                .cart_numbers {
+                    background-color: #e9e8e7;
+                    border-radius: 50%;
+                    font-size: 12px;
+                    width: 16px;
+                    height: 16px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    position: absolute;
+                    top: -5px;
+                    right: -10px;
+                }
+            }
+        }
+
+        .bottom_content {
+            margin: 16px 0;
+        }
+    }
+}

@@ -1,13 +1,16 @@
+import React from 'react'
 import './style.scss'
-import logo from '../../images/x140.webp'
 import Layout from '../../containers/Layout'
 
 export default function Home() {
     return (
-        <main className="home_page">
+        <div className="home_page">
             <Layout>
-                <img src={logo} alt="" />
+                <main className="home_main_wrap">
+                    <div className="hero_banner_wrap" />
+                    <div style={{ height: '2000px' }}>here is the section</div>
+                </main>
             </Layout>
-        </main>
+        </div>
     )
 }
