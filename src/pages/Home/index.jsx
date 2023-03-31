@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react'
 import './style.scss'
-import Layout from '../../layout1'
+import Layout from '../../layout'
 import { isInViewport } from '../../libs/isInViewport'
 import throttle from 'lodash.throttle'
 
