@@ -1,8 +1,8 @@
 import React from 'react'
 import './style.scss'
 // components
-import Announcement from '../../components/Announcement'
-import Header from '../../components/Header'
+import Announcement from '../components/Announcement'
+import Header from '../components/Header'
 
 export default function Layout({ children }) {
     return (

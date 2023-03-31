@@ -6,6 +6,18 @@
     background-color: #fff;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 5px 5px;
 
+    &.minimize {
+        position: fixed;
+
+        .header_container {
+            padding: 0 40px;
+
+            .top_content {
+                display: none;
+            }
+        }
+    }
+
     .header_container {
         position: relative;
         max-width: 1600px;
@@ -22,7 +34,7 @@
                 cursor: pointer;
 
                 &:hover {
-                    color: #e9e8e7;
+                    color: #063449;
                 }
 
                 &:last-child {

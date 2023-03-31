@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import './style.scss'
 import logo from '../../images/x140.webp'
 // components
@@ -8,8 +8,23 @@ import SearchBar from '../SearchBar'
 import NavBar from '../NavBar'
 
 export default function Header() {
+    const [minimize, setMinimize] = useState(false)
+    const minimizeClass = minimize ? 'minimize' : ''
+
+    const handleScroll = () => {
+        if (window.scrollY > 115) {
+            setMinimize(true)
+        } else {
+            setMinimize(false)
+        }
+    }
+
+    useEffect(() => {
+        window.addEventListener('scroll', handleScroll)
+    }, [])
+
     return (
-        <header id="header" className="header_wrap zIndex_header">
+        <header id="header" className={`header_wrap zIndex_header ${minimizeClass}`}>
             <div className="header_container">
                 <div className="top_content">
                     <div className="left">

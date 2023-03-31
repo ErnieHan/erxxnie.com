@@ -6,21 +6,21 @@ export default function NavBar() {
         <nav className="nav_bar_wrap">
             <ul>
                 <li>
-                    <a href="/" style={{ color: '#ec4211' }}>
+                    <a href="/category/nicesundays-x-beams" style={{ color: '#ec4211' }}>
                         NICESUNDAYS x BEAMS
                     </a>
                 </li>
                 <li>
-                    <a href="/">NEW ARRIVALS</a>
+                    <a href="/category/new-arrivals">NEW ARRIVALS</a>
                 </li>
                 <li>
                     <a href="/">CATEGORY</a>
                 </li>
                 <li>
-                    <a href="/">EXPERIENCE</a>
+                    <a href="/experience">EXPERIENCE</a>
                 </li>
                 <li>
-                    <a href="/">ABOUT</a>
+                    <a href="/about-us">ABOUT</a>
                 </li>
             </ul>
         </nav>
