@@ -6,6 +6,7 @@ import Language from '../Language'
 import Location from '../Location'
 import SearchBar from '../SearchBar'
 import NavBar from '../NavBar'
+import SearchBarContent from '../SearchBarContent'
 
 export default function Header() {
     const [minimize, setMinimize] = useState(false)
@@ -56,6 +57,7 @@ export default function Header() {
                 <div className="bottom_content">
                     <NavBar />
                 </div>
+                <SearchBarContent />
             </div>
         </header>
     )
